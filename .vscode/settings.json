@@ -1,0 +1,99 @@
+{
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
+  //黄色波浪线
+  "eslint.enable": true,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "extensions.autoUpdate": false,
+  "cSpell.userWords": [
+    "bodyparser",
+    "CATEGORYLIST",
+    "Conncetion",
+    "echarts",
+    "elif",
+    "eval",
+    "felyne",
+    "fieldname",
+    "getscript",
+    "isauth",
+    "ljust",
+    "middlewares",
+    "nprogress",
+    "nums",
+    "prettire",
+    "rgba",
+    "rjust",
+    "signin",
+    "signout",
+    "succ",
+    "todos",
+    "trendpage",
+    "unmount",
+    "vuex"
+  ],
+  "workbench.preferredDarkColorTheme": "OneDark Dark+",
+  "workbench.colorTheme": "OneDark Dark+",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.syntaxProfiles": {
+
+
+  },
+  "[css]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "osumode.enableComboCounter": true,
+  "osumode.imgInterval": 2,
+  "osumode.enabled": true,
+  "osumode.explosionSize": 4,
+  "background.enabled": false,
+  "background.useDefault": false,
+  "[javascript]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.sideBar.location": "right",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /*  prettier的配置 */
+  "prettier.printWidth": 80, // 超过最大值换行
+  "prettier.tabWidth": 2, // 缩进字节数
+  "prettier.useTabs": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.languageSettings": [
+
+  ], // 缩进不使用tab，使用空格
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript"
+  ],
+  "eslint.format.enable": true,
+  // 是否一直启用
+  "eslint.alwaysShowStatus": true,
+  // 保存时自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "eslint.autoFixOnSave" : true,  // 每次保存的时候将代码按eslint格式进行修复
+  },
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "window.zoomLevel": 0, // 原始缩放比例
+  "eslint.options": {    //指定vscode的eslint所处理的文件的后缀
+    "extensions": [
+        ".js",
+        ".vue",
+        ".ts",
+        ".tsx"
+    ]
+  }
+}
